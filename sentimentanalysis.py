@@ -12,7 +12,7 @@ def find_negative_tweets(test_tweets):
 def find_positve_tweets(test_tweets):
     """Function returns all negative Tweets"""
     return [tweet for tweet in test_tweets
-            if tweet['sentiment'] == 'postive']
+            if tweet['sentiment'] == 'positive']
 
 
 def plot_response(negative, positive, term):
